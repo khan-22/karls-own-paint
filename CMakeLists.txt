@@ -11,6 +11,8 @@ set(kop_VERSION ${kop_VERSION_MAJOR}.${kop_VERSION_MINOR}.${kop_VERSION_PATCH})
 # set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/lib")
 # set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/lib")
 
-add_subdirectory(deps/glew)
+#add_subdirectory(deps/glew/build/cmake)
+add_subdirectory(deps/glbinding)
+add_subdirectory(deps/sdl2)
 
 add_subdirectory(src)

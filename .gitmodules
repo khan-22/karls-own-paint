@@ -1,3 +1,12 @@
 [submodule "deps/imgui"]
 	path = deps/imgui
 	url = https://github.com/ocornut/imgui
+[submodule "deps/glew"]
+	path = deps/glew
+	url = https://github.com/nigels-com/glew.git
+[submodule "deps/glbinding"]
+	path = deps/glbinding
+	url = https://github.com/cginternals/glbinding.git
+[submodule "deps/sdl2"]
+	path = deps/sdl2
+	url = https://github.com/spurious/SDL-mirror.git

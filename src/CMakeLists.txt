@@ -1,17 +1,18 @@
 add_executable(
 	kop
 	main.cpp
-	../deps/imgui/imgui.cpp
+	# "../deps/imgui/imgui.cpp"
 )
 
 target_include_directories(
 	kop
 	PRIVATE
-		"../deps/imgui/"
+		# "../deps/imgui/"
+		"${glbinding_cmake_source_dir}/source/glbinding/include"
+		"${SDL2_include_dir}"
 )
 
-find_package(glew REQUIRED)
-
 target_link_libraries(kop 
-	glew_static
+	glbinding
+	SDL2
 )

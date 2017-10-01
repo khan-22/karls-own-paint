@@ -9,7 +9,8 @@ target_include_directories(
 	PRIVATE
 		# "../deps/imgui/"
 		"${glbinding_cmake_source_dir}/source/glbinding/include"
-		"${SDL2_include_dir}"
+		"${SDL2_BINARY_DIR}/include" 
+		"${SDL2_SOURCE_DIR}/include"
 )
 
 target_link_libraries(kop 

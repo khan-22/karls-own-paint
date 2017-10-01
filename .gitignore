@@ -37,3 +37,4 @@ bind/*
 lib/*
 .vs/*
 .vscode/*
+bin/*

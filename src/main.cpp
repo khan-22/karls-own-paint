@@ -10,7 +10,7 @@
 #include <glbinding/gl/gl.h>
 using namespace gl;
 
-int main() {
+int main(int argc, char **argv) {
   std::cout << "Hello World!" << std::endl;
 
   SDL_Init(SDL_INIT_VIDEO);
@@ -21,4 +21,6 @@ int main() {
 
   p();
   std::cin.get();
+
+	return 0;
 }
